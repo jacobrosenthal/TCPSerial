@@ -10,7 +10,7 @@ int TCPSerial::available() {
 
 int TCPSerial::peek() 
 {
-  return 0;
+  return -1;
 }
 
 void TCPSerial::flush(){}
